@@ -1,13 +1,32 @@
 on:
   pull_request:
     branches: '*'
+  issue_comment:
+    types: [created]
 
 name: Render README
 
 jobs:
+  check-not-fork:
+    runs-on: macOS-latest
+    steps:
+      - uses: actions/github-script@v5
+        if: github.event.pull_request.head.repo.fork == true
+        with:
+          script: |
+            github.rest.issues.createComment({
+              issue_number: context.number,
+              owner: context.repository.owner.login,
+              repo: context.repository.name,
+              body: 'This PR comes from a fork. README should be rendered manually using `/render` command in a comment.'
+            })
+            core.setFailed('PR is a fork - render manually')
   render:
+    needs: check-not-fork
     name: Render README
     runs-on: macOS-latest
+    # Don't run on fork
+    if: github.event.pull_request.head.repo.fork == false || startsWith(github.event.comment.body, '/render')
     steps:
       - uses: actions/checkout@v2
       - uses: r-lib/actions/pr-fetch@master
