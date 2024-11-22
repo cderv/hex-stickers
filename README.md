@@ -320,6 +320,9 @@ to print them yourself.
 <img alt="Logo for rules" src="thumbs/rules.png" width="120" height="139"><br /><a href="PNG/rules.png">rules.png</a><br /><a href="SVG/rules.svg">rules.svg</a>
 </td>
 <td>
+<img alt="Logo for rticles" src="thumbs/rticles.png" width="120" height="139"><br /><a href="PNG/rticles.png">rticles.png</a><br /><a href="SVG/rticles.svg">rticles.svg</a>
+</td>
+<td>
 <img alt="Logo for rvest" src="thumbs/rvest.png" width="120" height="139"><br /><a href="PNG/rvest.png">rvest.png</a><br /><a href="SVG/rvest.svg">rvest.svg</a>
 </td>
 <td>
@@ -333,6 +336,8 @@ to print them yourself.
 <td>
 <img alt="Logo for scales" src="thumbs/scales.png" width="120" height="139"><br /><a href="PNG/scales.png">scales.png</a><br /><a href="SVG/scales.svg">scales.svg</a>
 </td>
+</tr>
+<tr>
 <td>
 <img alt="Logo for shiny" src="thumbs/shiny.png" width="120" height="139"><br /><a href="PNG/shiny.png">shiny.png</a><br /><a href="SVG/shiny.svg">shiny.svg</a>
 </td>
@@ -350,6 +355,8 @@ to print them yourself.
 <td>
 <img alt="Logo for sortable" src="thumbs/sortable.png" width="120" height="139"><br /><a href="PNG/sortable.png">sortable.png</a><br /><a href="SVG/sortable.svg">sortable.svg</a>
 </td>
+</tr>
+<tr>
 <td>
 <img alt="Logo for sparklyr" src="thumbs/sparklyr.png" width="120" height="139"><br /><a href="PNG/sparklyr.png">sparklyr.png</a><br /><a href="SVG/sparklyr.svg">sparklyr.svg</a>
 </td>
@@ -370,6 +377,8 @@ to print them yourself.
 <td>
 <img alt="Logo for tensorflow" src="thumbs/tensorflow.png" width="120" height="139"><br /><a href="PNG/tensorflow.png">tensorflow.png</a><br /><a href="SVG/tensorflow.svg">tensorflow.svg</a>
 </td>
+</tr>
+<tr>
 <td>
 <img alt="Logo for testthat" src="thumbs/testthat.png" width="120" height="139"><br /><a href="PNG/testthat.png">testthat.png</a><br /><a href="SVG/testthat.svg">testthat.svg</a>
 </td>
@@ -387,6 +396,8 @@ to print them yourself.
 <td>
 <img alt="Logo for tidymodels" src="thumbs/tidymodels.png" width="120" height="139"><br /><a href="PNG/tidymodels.png">tidymodels.png</a><br /><a href="SVG/tidymodels.svg">tidymodels.svg</a>
 </td>
+</tr>
+<tr>
 <td>
 <img alt="Logo for tidyposterior" src="thumbs/tidyposterior.png" width="120" height="139"><br /><a href="PNG/tidyposterior.png">tidyposterior.png</a><br /><a href="SVG/tidyposterior.svg">tidyposterior.svg</a>
 </td>
@@ -404,6 +415,8 @@ to print them yourself.
 <td>
 <img alt="Logo for torch" src="thumbs/torch.png" width="120" height="139"><br /><a href="PNG/torch.png">torch.png</a><br /><a href="SVG/torch.svg">torch.svg</a>
 </td>
+</tr>
+<tr>
 <td>
 <img alt="Logo for tune" src="thumbs/tune.png" width="120" height="139"><br /><a href="PNG/tune.png">tune.png</a><br /><a href="SVG/tune.svg">tune.svg</a>
 </td>
@@ -424,6 +437,8 @@ to print them yourself.
 <td>
 <img alt="Logo for withr" src="thumbs/withr.png" width="120" height="139"><br /><a href="PNG/withr.png">withr.png</a><br /><a href="SVG/withr.svg">withr.svg</a>
 </td>
+</tr>
+<tr>
 <td>
 <img alt="Logo for workflows" src="thumbs/workflows.png" width="120" height="139"><br /><a href="PNG/workflows.png">workflows.png</a><br /><a href="SVG/workflows.svg">workflows.svg</a>
 </td>
